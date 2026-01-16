@@ -1,0 +1,7 @@
+baseURL = "https://jorgesilva27.github.io/"
+languageCode = "en-us"
+title = "Jorge Silva"
+theme = "PaperMod"
+
+[params]
+  author = "Jorge Silva"

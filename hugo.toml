@@ -1,7 +1,25 @@
-baseURL = "https://jorgesilva27.github.io/"
+baseURL = "https://jorgesilvadesign.github.io/"
 languageCode = "en-us"
 title = "Jorge Silva"
 theme = "PaperMod"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
-[params]
-  author = "Jorge Silva"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
